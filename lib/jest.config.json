@@ -1,0 +1,29 @@
+{
+    "collectCoverageFrom": [
+        "src/**/*.{ts,js}"
+    ],
+    "moduleFileExtensions": [
+        "ts",
+        "tsx",
+        "js",
+        "jsx",
+        "json"
+    ],
+    "moduleNameMapper": {
+        "\\.(css|scss|sass)$": "<rootDir>/style-mock.js"
+    },
+    "roots": [
+        "<rootDir>/src"
+    ],
+    "testEnvironment": "jsdom",
+    "testRegex": "test\\.tsx?$",
+    "transform": {
+        "^.+\\.(t|j)sx?$": "ts-jest"
+    },
+    "transformIgnorePatterns": [
+        "node_modules*"
+    ],
+    "setupFilesAfterEnv": [
+        "<rootDir>/setup-tests.ts"
+    ]
+}

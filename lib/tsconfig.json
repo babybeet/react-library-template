@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "allowSyntheticDefaultImports": false,
+        "baseUrl": "./src",
+        "declaration": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "isolatedModules": true,
+        "jsx": "react-jsx",
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
+        "module": "esnext",
+        "moduleResolution": "node",
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "outDir": "./dist",
+        "resolveJsonModule": true,
+        "sourceMap": true,
+        "strict": true,
+        "strictNullChecks": false,
+        "suppressImplicitAnyIndexErrors": true,
+        "target": "esnext",
+        "types": [
+            "@types/jest",
+            "@testing-library/react",
+            "@testing-library/jest-dom"
+        ]
+    },
+    "exclude": [
+        "node_modules",
+        "dist",
+        "ignores"
+    ]
+}
